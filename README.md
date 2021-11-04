@@ -1,6 +1,8 @@
 # kobis-api
 - 영화진흥위원회(kobis)의 API를 활용하여 간단하게 영화 목록을 보여주는 기능입니다.
 
+![kobis](asset/preview.gif)
+
 <br>
 
 ## Setting
