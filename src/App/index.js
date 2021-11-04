@@ -7,7 +7,9 @@ import Movie from '../Movie';
 const App = () => {
   const [isLoading, setIsLoading] = useState(false);
   const [errorMessage, setErrorMessage] = useState('');
-  const [movieList, setMovieList] = useState();
+  const [movieList, setMovieList] = useState({
+    dailyBoxOfficeList: [],
+  });
 
   useEffect(() => {
     const getMovieList = async () => {
